@@ -1,0 +1,14 @@
+{
+  "name": "adventure_time_extractor",
+  "version": "1.0.0",
+  "description": "grab lovely show info about Adventure Time from IMDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul Scarrone, Dave Columbus",
+  "license": "MIT",
+  "dependencies": {
+    "imdb-node": "0.0.4"
+  }
+}
