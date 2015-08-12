@@ -17,8 +17,14 @@ GEM
     arel (6.0.3)
     builder (3.2.2)
     i18n (0.7.0)
+    imdb (0.8.2)
+      nokogiri (= 1.6.2.1)
     json (1.8.3)
+    mini_portile (0.6.0)
     minitest (5.8.0)
+    nokogiri (1.6.2.1)
+      mini_portile (= 0.6.0)
+    rake (10.4.2)
     sqlite3 (1.3.10)
     thread_safe (0.3.5)
     tzinfo (1.2.2)
@@ -29,6 +35,8 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord
+  imdb
+  rake
   sqlite3
 
 BUNDLED WITH
