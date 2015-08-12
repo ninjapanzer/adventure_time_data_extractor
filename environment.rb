@@ -7,6 +7,10 @@ Dir.glob('./app/*').each do |folder|
   end
 end
 
+Dir.glob('./app/*.rb').each do |file|
+  require file
+end
+
 
 ActiveRecord::Base.establish_connection(
   adapter: 'sqlite3',
